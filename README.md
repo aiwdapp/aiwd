@@ -53,7 +53,7 @@ npx aiwd@latest install aiwd
 
 ### 2. CLI Fetches Skill
 
-- Tries to fetch from `https://adjoining-toad-939.convex.site/skills.md`
+- Tries to fetch from `https://aiwd.app/SKILL.md`
 - Falls back to local `skills.md` if needed
 - Saves to `~/.claude/skills/aiwd.md`
 
@@ -111,7 +111,7 @@ npx aiwd@latest install aiwd
 
 ## Environment Variables
 
-- `AIWD_URL` - Base URL for fetching skills (default: `https://adjoining-toad-939.convex.site`)
+- `AIWD_URL` - Base URL for fetching skills (default: `https://aiwd.app`)
 
 Example:
 ```bash
