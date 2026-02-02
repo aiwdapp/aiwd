@@ -25,8 +25,7 @@
   "homepage": "https://aiwd.app",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bestfriendai/ai-world-domination.git",
-    "directory": "cli"
+    "url": "https://github.com/aiwdapp/aiwd.git"
   },
   "dependencies": {
     "commander": "^11.0.0",
