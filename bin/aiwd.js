@@ -36,7 +36,7 @@ program
   .action(async (options) => {
     console.log(AIWD_LOGO);
 
-    const spinner = ora(chalk.gray('Fetching skill from the void...')).start();
+    const spinner = ora(chalk.gray('Fetching AIWD skills...')).start();
 
     try {
       // Fetch SKILL.md from AIWD
@@ -137,7 +137,7 @@ program
       return;
     }
 
-    console.log(VOID_LOGO);
+    console.log(AIWD_LOGO);
     console.log(chalk.cyan.bold('Installed Skills:\n'));
     skills.forEach(skill => {
       console.log(chalk.gray('  • ') + chalk.white(skill.replace('.md', '')));
